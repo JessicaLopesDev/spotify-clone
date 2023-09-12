@@ -14,9 +14,11 @@ export const Layout = () => {
         <S.RightContent>
           <Header />
 
-          <S.Content>
-            <Outlet />
-          </S.Content>
+          <S.MainContent>
+            <S.Content>
+              <Outlet />
+            </S.Content>
+          </S.MainContent>
         </S.RightContent>
       </S.TopContent>
 

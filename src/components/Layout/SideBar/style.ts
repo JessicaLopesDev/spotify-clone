@@ -17,6 +17,18 @@ export const TopContent = styled.div`
   `}
 `
 
+export const Field = styled.div`
+  ${({ theme }) => css`
+    color: ${theme.color.text.subtitle};
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    height: 56px;
+    padding: 0 22px 0 22px;
+    gap: 16px;
+  `}
+`
+
 export const BottomContent = styled.div`
   ${({ theme }) => css`
     background-color: ${theme.color.primary};

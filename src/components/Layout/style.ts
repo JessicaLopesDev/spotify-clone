@@ -13,8 +13,15 @@ export const RightContent = styled.div`
   width: 100%;
 `
 
+export const MainContent = styled.div`
+  padding-right: 8px;
+`
+
 export const Content = styled.div`
-  background-color: pink;
-  height: calc(100vh - 144px);
-  overflow: auto;
+  ${({ theme }) => css`
+    border-radius: 0 0 4px 4px;
+    background-color: ${theme.color.primary};
+    height: calc(100vh - 144px);
+    overflow: auto;
+  `}
 `
