@@ -1,18 +1,20 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
 export const Container = styled.div`
-  background-color: red;
+  ${({ theme }) => css`
+    background-color: ${theme.color.background};
+  `}
 `
 
 export const TopContent = styled.div`
-  background-color: beige;
-
   display: flex;
 `
 export const RightContent = styled.div`
-  background-color: purple;
+  width: 100%;
 `
 
 export const Content = styled.div`
   background-color: pink;
+  height: calc(100vh - 144px);
+  overflow: auto;
 `

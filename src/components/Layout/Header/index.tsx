@@ -1,5 +1,9 @@
-// import * as S from './style'
+import * as S from './style'
 
 export const Header = () => {
-  return <div>Header</div>
+  return (
+    <S.Container>
+      <S.Content></S.Content>
+    </S.Container>
+  )
 }
