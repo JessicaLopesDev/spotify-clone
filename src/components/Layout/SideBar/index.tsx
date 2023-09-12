@@ -14,7 +14,9 @@ export const SideBar = () => {
         </S.Field>
         <S.Field>
           <FiSearch size={26} />
-          <InputSearch />
+          <S.InputBox>
+            <InputSearch />
+          </S.InputBox>
         </S.Field>
       </S.TopContent>
       <S.BottomContent></S.BottomContent>

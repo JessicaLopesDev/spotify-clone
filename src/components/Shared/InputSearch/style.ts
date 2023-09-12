@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components'
 export const Container = styled.input`
   ${({ theme }) => css`
     background-color: ${theme.color.background};
-    width: 148px;
+    width: 100%;
     height: 26px;
     border: 2px solid ${theme.color.text.subtitle};
     border-radius: 16px;
